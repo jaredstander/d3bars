@@ -1,6 +1,6 @@
 == README
 
-Proof of concept for using D3 library to update data on pages dynamically in rails. All of the accompanying JavaScript code written by Jesse Waites, from [Data Visualization with d3](https://www.google.comhttp://jessewaites.com/data-visualization-with-d3/)
+Proof of concept for using D3 library to update data on pages dynamically in rails. All of the accompanying JavaScript code written by Jesse Waites, from https://www.google.comhttp://jessewaites.com/data-visualization-with-d3/
 
 == Todo
 
