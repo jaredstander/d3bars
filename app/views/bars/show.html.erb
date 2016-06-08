@@ -1,0 +1,11 @@
+<button id="sort" onclick="sortBars()">Sort</button>
+<button id="reset" onclick="reset()">Reset</button>
+<div id="d3bars">
+</div>
+<p>
+  <%= form_tag({controller: "bars", action: "create"}, method: "post", remote: true) do %>
+    <%= label_tag(:dataset, "Data Set:") %>
+    <%= text_field_tag(:dataset) %>
+    <%= submit_tag("Submit") %>
+  <% end %>
+</p>
